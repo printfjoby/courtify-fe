@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import web3Connect from '../lib/web3Connect'
 import Header from '../components/Header'
 import Link from 'next/link'
-const { create } = require('ipfs-http-client')
+const ipfsClient = require('ipfs-http-client')
 
 
 export default function uploadEvidence() {
